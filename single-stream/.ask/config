@@ -1,14 +1,14 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.cbbda0f9-fd6f-4cf9-aba6-deb57df294ca",
       "was_cloned": false,
       "merge": {
-        "skillManifest": {
+        "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-myradio-default"
+                "uri": "arn:aws:lambda:us-east-1:618464369307:function:ask-in-medias-res-radio"
               }
             }
           }
